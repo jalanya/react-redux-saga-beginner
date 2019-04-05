@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-saga-beginner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node main.js"
+  },
+  "keywords": [],
+  "author": "Jose Alanya <jose.alanya@gmail.com> (https://about.me/jose_alanya)",
+  "license": "ISC",
+  "dependencies": {
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
