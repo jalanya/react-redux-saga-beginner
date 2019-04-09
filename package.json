@@ -4,18 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node main.js"
+    "start": "babel-node main.js",
+    "start:local": "budo main.js:build.js --dir ./ --verbose  --live -- -t babelify"
   },
   "keywords": [],
   "author": "Jose Alanya <jose.alanya@gmail.com> (https://about.me/jose_alanya)",
   "license": "ISC",
   "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.3"
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babelify": "^10.0.0",
+    "budo": "^11.6.2"
   }
 }
